@@ -1,0 +1,174 @@
+%-------------------------
+% Resume in Latex
+% Author : Aarush Agarwal
+% Targeted for: IBM SWE Intern - Autonomous Data Management
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+\pagestyle{fancy}
+\fancyhf{} 
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins - Optimized for One Page
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+\begin{center}
+    \textbf{\Huge \scshape Aarush Agarwal} \\ \vspace{1pt}
+    \small 317-486-3961 $|$ \href{mailto:agarw574@purdue.edu}{\underline{agarw574@purdue.edu}} $|$ 
+    \href{https://www.linkedin.com/in/aarusha/}{\underline{linkedin.com/in/aarusha/}} $|$
+    \href{https://github.com/AarushAgarwal-dev}{\underline{github.com/AarushAgarwal-dev}}
+\end{center}
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Purdue University}{West Lafayette, IN}
+      {Bachelor of Science in Computer Engineering (Honors College)\textbf{ GPA: 4.0/4.0}}{May 2029}
+  \resumeSubHeadingListEnd
+
+%-----------TECHNICAL SKILLS-----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{AI \& GenAI}{: Large Language Models (LLMs), Google Gemini API, RAG, Prompt Engineering, Agentic Frameworks} \\
+     \textbf{Data Engineering}{: DataOps Pipelines, SQL, Pandas, NumPy, Scikit-learn, Markov Chains, Parquet Processing} \\
+     \textbf{Languages}{: Python, C, C++, JavaScript (ES6+), System Verilog, Verilog, MATLAB} \\
+     \textbf{Cloud \& Web}{: AWS, Azure, GCP, Node.js, MySQL, Docker, React.js, Vite, Linux (Ubuntu)} \\
+     \textbf{Tools}{: Git, Google Drive, Dropbox, Web Hosting} 
+    }}
+ \end{itemize}
+\section{Experience}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Undergraduate Data Science Researcher}{August 2025 -- Present}
+      {The Data Mine (Corporate Partner: Allison Transmission)} {West Lafayette, IN}
+      \resumeItemListStart
+        \resumeItem{Engineering autonomous \textbf{DataOps pipelines} in Python and SQL to ingest, clean, and process \textbf{5TB+ of vehicle telemetry data}, directly supporting fleet management systems.}
+        \resumeItem{Developing a sequential failure prediction model using \textbf{Markov Chains} and \textbf{N-gram analysis} to cluster fault codes, achieving \textbf{96\% precision} in forecasting transmission issues.}
+        \resumeItem{Collaborating with industry data scientists to implement predictive maintenance algorithms that identify failure modes \textbf{5+ days in advance}, reducing potential vehicle downtime.}
+        \resumeItem{Optimized data query performance by restructuring Parquet file storage, significantly reducing latency for time-series analysis dashboards.}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Undergraduate System on Chip Researcher}{August 2025 -- Present}
+      {SoCET Research Lab - Purdue VIP}{West Lafayette, IN}
+      \resumeItemListStart
+        \resumeItem{Contributing to the design of an open-source \textbf{RISC-V System-on-Chip (SoC)}, analyzing hardware constraints critical for efficient \textbf{AI model inference} and high-performance computing.}
+        \resumeItem{Utilizing SystemVerilog and Cadence Virtuoso for digital logic design and verification, ensuring signal integrity across complex processing units in the physical infrastructure layer.}
+      \resumeItemListEnd
+      
+    \resumeSubheading
+      {Founder \& Content Creator}{August 2023 -- April 2025}
+      {Laughing Tots (Media Venture)}{Remote}
+      \resumeItemListStart
+        \resumeItem{Founded a 3D animation startup, growing it to \textbf{1,740 subscribers} and \textbf{738,000+ views} by leveraging data analytics to reverse-engineer viewer retention algorithms.}
+        \resumeItem{Managed a rigorous production pipeline for 92+ assets, resulting in \textbf{6,800+ hours} of total watch time through optimized content pacing.}
+      \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+
+%-----------PROJECTS-----------
+\section{Projects}
+    \resumeSubHeadingListStart
+      \resumeProjectHeading
+          {\textbf{CS159 Pete: AI-Powered Educational Agent} $|$ \emph{React, Gemini API, System Prompts}}{2025}
+          \resumeItemListStart
+            \resumeItem{Architected "Pit Crew AI," a context-aware chatbot powered by the \textbf{Google Gemini API}, engineering \textbf{system prompts} to enforce a persona that translates technical C errors (Pointers/Memory) into domain-specific analogies}
+            \resumeItem{Developed a high-performance Single Page Application (SPA) using React 19 and Vite, integrating Generative AI for real-time code debugging and explanation.}
+            \resumeItem{Designed a modular JavaScript engine to handle state management and gamified progression, simulating an \textbf{autonomous agentic environment} for student learning.}
+          \resumeItemListEnd
+
+      \resumeProjectHeading
+          {\textbf{Debris Detection System for Dams} $|$ \emph{Python, Computer Vision, IoT}}{2023}
+          \resumeItemListStart
+            \resumeItem{Engineered an autonomous monitoring system using \textbf{Computer Vision (OpenCV)} to process real-time sensor data (1,000+ readings/minute) and predict flood risks.}
+            \resumeItem{Interfaced predictive software with Arduino hardware to trigger physical maintenance mechanisms, creating a closed-loop autonomous system.}
+          \resumeItemListEnd
+    \resumeSubHeadingListEnd
+
+
+%-----------AWARDS-----------
+\section{Awards \& Certifications}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{International}{: ISTO Olympiad 2nd rank (2023-24) internationally out of 1 million students, SOF IEO Top 15 Rank out of 1.5 million students, AP Scholar with distinction, Panchatatvam 2023 1st rank, BIZECO 2023 1st rank} \\
+     \textbf{Certifications}{: CS50 Harvard University, IBM Web Development, Git \& GitHub, Cloud Computing, Node.js \& Express} \\
+    }}
+ \end{itemize}
+
+\end{document}
