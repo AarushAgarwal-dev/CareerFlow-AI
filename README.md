@@ -10,9 +10,9 @@ CareerFlow AI is a high-fidelity, open-source web application designed to superc
 
 ---
 
-## 🌟 Core Features
+##  Core Features
 
-### 1. ⚙️ Centralized Profile Editor
+### 1. Centralized Profile Editor
 Say goodbye to hardcoded profiles. CareerFlow AI decouples user data into a highly reactive local storage layer. Custom tabs enable full CRUD control over:
 *   **Basic Info & Professional Summary**
 *   **Academic History & Honors**
@@ -21,41 +21,41 @@ Say goodbye to hardcoded profiles. CareerFlow AI decouples user data into a high
 *   **Awards & Certifications**
 *   *Backup & Restore*: Export your entire career profile as a `.json` configuration file, restore it instantly, or reset it to the premium default engineering template.
 
-### 2. 📝 LaTeX Resume Tailor
+### 2. LaTeX Resume Tailor
 Input a target job description and watch the AI dynamically rewrite bullet points inside your LaTeX template, focusing heavily on:
 *   Action-oriented, quantified metric-driven accomplishments.
 *   Automatic keyword alignment with the target description.
 *   **Interactive Revision Editor**: Propose natural modifications (e.g. *"make the summary shorter"*, *"highlight Python experience"*) and refine your LaTeX output instantly.
 
-### 3. 🗺️ AI Career Roadmap Builder
+### 3. AI Career Roadmap Builder
 Map out your professional transition to reach your dream role (e.g., *Lead Machine Learning Engineer*, *Fintech Quant Developer*):
 *   **Gap Analysis**: Auto-generates a comparison table evaluating your current capabilities against target expectations.
 *   **Month-by-Month learning blueprint**: Detailed monthly focuses, industry certifications, and networking strategies.
 *   **High-Impact Projects**: Proposes concrete, technical codebases to construct that prove required skills to recruiters.
 
-### 4. 📊 Job Tracker & Pipeline Analytics
+### 4. Job Tracker & Pipeline Analytics
 Organize your pipeline across five kanban phases: *To Apply, Applied, Interviewing, Offer, and Rejected*.
 *   **Pipeline Analytics Row**: Dynamically computes active pipeline volumes, interview conversion rates, and offer conversion percentages with sleek glowing progress meters.
 
-### 5. 🎤 STAR Interview Simulator
+### 5.  STAR Interview Simulator
 Mock interview preparation adapted to your dynamic credentials and target job descriptions:
 *   Simulates technical, behavioral, and project deep-dive questions.
 *   Evaluates answers against standard STAR (Situation, Task, Action, Result) structures, returning numerical ratings and constructive phrasings.
 
-### 6. ✍️ Persona-Driven Outreach Generators
+### 6.  Persona-Driven Outreach Generators
 *   **Cover Letter Writer**: Drafts personalized cover letters under 300 words that convey high enthusiasm and transferable skills.
 *   **Cold Outreach Writer**: Formulates cold emails or DMs optimized for LinkedIn.
 *   **Tone Customizers**: Easily switch between **Confident & Professional**, **Quirky & Charismatic**, **Technical & Structured**, and **Passionate & Mission-Driven** writing styles.
 
-### 7. 🔗 LinkedIn Profile Optimizer
+### 7. LinkedIn Profile Optimizer
 Optimize your headline, summary, and experience blocks for high recruiter discoverability, rendered in beautifully styled rich Markdown.
 
-### 8. 💬 AI Career Assistant Chat
+### 8.  AI Career Assistant Chat
 An interactive personal chatbot that retains context of your full profile and generated resumes to help brainstorm questions or draft elevator pitches.
 
 ---
 
-## 🛠️ Architecture & Tech Stack
+##  Architecture & Tech Stack
 
 ```mermaid
 graph TD
@@ -77,7 +77,7 @@ graph TD
 
 ---
 
-## 🚀 Setup & Local Installation
+##  Setup & Local Installation
 
 Follow these steps to run CareerFlow AI on your local machine:
 
