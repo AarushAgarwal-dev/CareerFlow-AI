@@ -1,7 +1,7 @@
 # CareerFlow AI 
 ### *Premium, Open-Source Career Intelligence Dashboard & AI Resume Architect*
 
-CareerFlow AI is a high-fidelity, open-source web application designed to supercharge your career transition. Powered by Google's state-of-the-art **Gemini 2.5 Flash** models, the platform acts as an automated, intelligent career coach—tailoring LaTeX resumes, evaluating interviews, optimizing social presence, mapping learning plans, and tracking applications within a stunning dark-mode glassmorphic dashboard.
+CareerFlow AI is a high-fidelity, open-source web application designed to supercharge your career transition. Powered by Google's state-of-the-art **Gemini 2.5 Flash** models, the platform acts as an automated, intelligent career coach—tailoring LaTeX resumes, evaluating interviews, optimizing social presence, mapping learning plans, and tracking applications within a stunning dark-mode glassmorphic UI UX.
 
 ![License](https://img.shields.io/badge/license-MIT-cyan.svg)
 ![React](https://img.shields.io/badge/react-v19-blue.svg)
